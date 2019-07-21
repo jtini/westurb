@@ -3,8 +3,10 @@
 .highlight {
     margin-top: 1.5rem;
 
-    &:last-of-type {
-        margin-bottom: 1.5rem;
+    @media screen and (min-width: 800px) {
+        width: 50%;
+        padding-right: 2rem;
+        margin-top: 2rem;
     }
 }
 
@@ -15,9 +17,28 @@
     text-transform: uppercase;
     letter-spacing: 1px;
     color: $color-primary;
+
+    .wf-loading & {
+        font-size: $fs-caption;
+    }
 }
 
 .highlight__text {
-    margin-top: 0;
+    margin-top: 0.25rem;
     color: $color-text-light;
+
+    @media screen and (min-width: 800px) {
+        margin-top: 0.5rem;
+    }
+}
+
+.highlights {
+    display: flex;
+    flex-flow: column;
+    margin-bottom: 1.5rem;
+
+    @media screen and (min-width: 800px) {
+        flex-flow: row wrap;
+        margin-bottom: 2rem;
+    }
 }
