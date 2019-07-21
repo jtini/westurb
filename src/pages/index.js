@@ -1,8 +1,8 @@
 import React from "react"
-
 import Layout from "../components/Layout/Layout"
 import SEO from "../components/SEO/SEO"
 import Highlight from "../components/Highlight/Highlight"
+import NavigationList from "../components/NavigationList/NavigationList"
 
 const IndexPage = () => (
   <Layout>
@@ -17,6 +17,23 @@ const IndexPage = () => (
         <Highlight title="Regeneration" text="Creating local ecosystems that regenerate amenities naturally" />
       </section>
       <p className="color-text-light">Western Urban Sustainability Advisors, LLC (WestUrb) helps local governments provide such high-quality programs more easily and effectively. WestUrb also helps businesses that want to sell related services and products to local governments, and interest groups that want to influence the adoption of supportive policies by such governments.</p>
+      <NavigationList
+        links={[
+          {
+            to: '/about',
+            text: 'About WestUrb'
+          }, {
+            to: '/service-areas',
+            text: 'Service Areas'
+          }, {
+            to: '/presentations',
+            text: 'Presentations'
+          }, {
+            to: '/rates',
+            text: 'Rates'
+          }
+        ]}
+      />
     </div>
   </Layout>
 )

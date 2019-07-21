@@ -1,0 +1,50 @@
+@import '../../stylesheets/index';
+
+.nav-link {
+    position: relative;
+    padding: 1rem 0.5rem;
+    font-family: $ff-serif;
+    font-size: $fs-h3;
+    line-height: $lh-base;
+
+    &:before,
+    &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 1px;
+        background-color: #E4E4E4;
+    }
+
+    &:before {
+        top: 0;
+    }
+
+    &:after {
+        top: 100%;
+    }
+
+    &:first-of-type {
+        &:before {
+            display: none;
+        }
+    }
+
+    &:last-of-type {
+        &:after {
+            display: none;
+        }
+    }
+
+    + .nav-link {
+        margin-top: 0;
+    }
+}
+
+.nav-link__inner {
+
+    text-decoration: none;
+    color: $color-secondary;
+}
