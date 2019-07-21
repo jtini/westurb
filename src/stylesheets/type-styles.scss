@@ -1,7 +1,7 @@
 @import '_type';
 
 p {
-    font-size: $fs-body;
+    font-size: $fs-caption;
     line-height: $lh-loose;
 
     + p {
@@ -10,6 +10,10 @@ p {
 
     .wf-loading & {
         font-size: $fs-label;
+    }
+
+    @media screen and (min-width: 500px) {
+        font-size: $fs-caption;
     }
 }
 
@@ -23,8 +27,12 @@ h3 {
 }
 
 .title {
-    font-size: $fs-title;
+    font-size: $fs-h1;
     margin-bottom: 2rem;
+
+    @media screen and (min-width: 500px) {
+        font-size: $fs-title;
+    }
 }
 
 h1 {
