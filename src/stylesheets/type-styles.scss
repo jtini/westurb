@@ -7,6 +7,10 @@ p {
     + p {
         margin-top: $fs-body;
     }
+
+    .wf-loading & {
+        font-size: $fs-label;
+    }
 }
 
 h1,
