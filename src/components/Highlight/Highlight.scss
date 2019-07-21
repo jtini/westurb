@@ -1,0 +1,23 @@
+@import '../../stylesheets/index';
+
+.highlight {
+    margin-top: 1.5rem;
+
+    &:last-of-type {
+        margin-bottom: 1.5rem;
+    }
+}
+
+.highlight__title {
+    font-size: $fs-label;
+    font-weight: $fw-semibold;
+    line-height: $lh-0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: $color-primary;
+}
+
+.highlight__text {
+    margin-top: 0;
+    color: $color-text-light;
+}
