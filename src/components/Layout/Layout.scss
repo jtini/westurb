@@ -1,0 +1,22 @@
+/**
+* Theme stylesheets
+*/
+@import '../../stylesheets/index';
+
+/**
+* Base stylesheets, import once
+*/
+@import '../../stylesheets/base/reset';
+@import '../../stylesheets/base/normalize';
+
+/**
+* Reusable styles, import once
+*/
+@import '../../stylesheets/base-styles';
+@import '../../stylesheets/type-styles';
+@import '../../stylesheets/layout-styles';
+@import '../../stylesheets/color-styles';
+
+.main {
+    padding: 1rem;
+}

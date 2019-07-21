@@ -1,0 +1,21 @@
+@import '_type';
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: $ff-sans;
+    font-size: 1rem;
+    color: $color-text-base;
+    background-color: $color-bg-base;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

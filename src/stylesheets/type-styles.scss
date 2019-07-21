@@ -1,0 +1,40 @@
+@import '_type';
+
+p {
+    font-size: $fs-body;
+    line-height: $lh-loose;
+
+    + p {
+        margin-top: $fs-body;
+    }
+}
+
+h1,
+h2,
+h3 {
+    font-family: $ff-serif;
+    font-weight: $fw-book;
+    line-height: $lh-tight;
+    margin: 0;
+}
+
+.title {
+    font-size: $fs-title;
+    margin-bottom: 2rem;
+}
+
+h1 {
+    font-size: $fs-h1;
+}
+
+h2 {
+    font-size: $fs-h2;
+}
+
+h3 {
+    font-size: $fs-h3;
+}
+
+.bold {
+    font-weight: $fw-semibold;
+}
