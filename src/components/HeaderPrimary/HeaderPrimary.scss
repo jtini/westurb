@@ -1,0 +1,71 @@
+@import '../../stylesheets/index';
+
+.header-primary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 3.5rem;
+    background-color: #fff;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.05);
+}
+
+.header-primary__left,
+.header-primary__right {
+    display: inline-flex;
+    align-items: center;
+    height: 100%;
+}
+
+.header-primary__logo-link,
+.header-primary__menu-btn {
+    height: 100%;
+    width: 3.5rem;
+}
+
+.header-primary__logo-link {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: inherit;
+    background-color: $color-secondary;
+}
+
+
+.header-primary__mailto-link {
+    padding-right: 0.5rem;
+    color: $color-secondary;
+}
+
+.header-primary__nav-link {
+    padding-left: 1.5rem;
+    color: inherit;
+    text-decoration: none;
+}
+
+.header-primary__navigation {
+    display: none;
+    height: 100%;
+
+    @media screen and (min-width: 800px) {
+        display: inline-flex;
+        align-items: center;
+    }
+}
+
+.header-primary__menu-btn {
+    &:focus {
+        background-color: #fafafa;
+        outline: none;
+    }
+}
+
+.header-primary__menu-btn-inner {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
