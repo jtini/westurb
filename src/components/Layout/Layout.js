@@ -1,6 +1,5 @@
 import React, { Component } from "react"
 import PropTypes from "prop-types"
-import cx from 'classnames';
 import HeaderPrimary from '../HeaderPrimary/HeaderPrimary'
 import MobileNavigation from '../MobileNavigation/MobileNavigation'
 import './layout.scss'

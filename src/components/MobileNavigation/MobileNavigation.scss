@@ -11,9 +11,17 @@
 
     &.mobile-nav--is-visible {
         display: block;
+
+        @media screen and (min-width: 800px) {
+            display: none;
+        }
     }
 
     .navigation-list {
         margin-top: 0;
+    }
+
+    @media screen and (min-width: 800px) {
+        display: none;
     }
 }
