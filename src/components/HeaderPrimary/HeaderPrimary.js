@@ -7,7 +7,7 @@ import menu from '../../images/icon-menu.svg';
 import close from '../../images/icon-close.svg';
 
 const HeaderPrimary = props => {
-    const { isMenuVisible, onClickMenu } = props;
+    const { isMenuVisible, showMenu, hideMenu } = props;
     return (
         <header className="header-primary">
             <div className="header-primary__left">
@@ -24,7 +24,7 @@ const HeaderPrimary = props => {
             </div>
             <div className="header-primary__right">
                 <a className="header-primary__mailto-link" href="mailto:info@westurb.com">info@westurb.com</a>
-                <button className="header-primary__menu-btn" onClick={onClickMenu}>
+                <button className="header-primary__menu-btn" onClick={isMenuVisible ? hideMenu : showMenu}>
                     <span className="header-primary__menu-btn-inner">
                         <img src={isMenuVisible ? close : menu} alt="open menu" />
                     </span>
@@ -36,7 +36,8 @@ const HeaderPrimary = props => {
 
 HeaderPrimary.propTypes = {
     isMenuVisible: PropTypes.bool,
-    onClickMenu: PropTypes.func.isRequired
+    showMenu: PropTypes.func.isRequired,
+    hideMenu: PropTypes.func.isRequired
 }
 
 HeaderPrimary.defaultProps = {
