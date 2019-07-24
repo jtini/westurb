@@ -17,12 +17,16 @@
 @import '../../stylesheets/type-styles';
 @import '../../stylesheets/layout-styles';
 @import '../../stylesheets/color-styles';
+@import '../../stylesheets/list-styles';
 
 .main {
     padding: 1rem;
+
+    @media screen and (min-width: 600px) {
+        padding: 2rem;
+    }
 }
 
 .nav--is-visible {
     overflow: hidden;
 }
-

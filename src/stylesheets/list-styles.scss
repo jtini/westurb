@@ -1,0 +1,24 @@
+li {
+    line-height: 1.25;
+}
+
+ul {
+    padding-top: 0.5rem;
+    
+    li {
+        position: relative;
+        padding-left: 1.5rem;
+        padding-top: 1rem;
+    
+        &:before {
+            content: '—';
+            position: absolute;
+            top: 1rem;
+            left: 0;
+            display: inline-block;
+            width: 1rem;
+            color: $color-primary;
+        }
+    }
+    
+}

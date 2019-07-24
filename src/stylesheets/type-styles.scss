@@ -37,6 +37,8 @@ h3 {
 
 h1 {
     font-size: $fs-h1;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
 }
 
 h2 {
@@ -49,4 +51,18 @@ h3 {
 
 .bold {
     font-weight: $fw-semibold;
+}
+
+
+
+.title {
+    padding-top: 1rem;
+
+    @media screen and (min-width: 600px) {
+        padding-top: 2rem;
+    }
+}
+
+.text--subdued {
+    color: $color-text-light;
 }

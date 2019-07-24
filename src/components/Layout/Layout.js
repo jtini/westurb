@@ -13,12 +13,6 @@ export default class Layout extends Component {
     }
   }
 
-  toggleMenu = () => {
-    this.setState(prevState => ({
-      isMenuVisible: !prevState.isMenuVisible
-    }))
-  }
-
   showMenu = () => {
     this.setState({
       isMenuVisible: true
@@ -51,16 +45,20 @@ export default class Layout extends Component {
           links={[
             {
               to: '/about',
-              text: 'About WestUrb'
+              text: 'About WestUrb',
+              onClick: this.hideMenu
             }, {
               to: '/service-areas',
-              text: 'Service Areas'
+              text: 'Service Areas',
+              onClick: this.hideMenu
             }, {
               to: '/presentations',
-              text: 'Presentations'
+              text: 'Presentations',
+              onClick: this.hideMenu
             }, {
               to: '/rates',
-              text: 'Rates'
+              text: 'Rates',
+              onClick: this.hideMenu
             }
           ]} />
       </>

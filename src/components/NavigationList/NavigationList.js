@@ -7,9 +7,12 @@ const NavigationList = props => {
     const { links } = props;
     return (
         <div className="navigation-list">
-            {links.map((link, idx) => (
-                <NavigationLink key={idx} to={link.to} text={link.text} />
-            ))}
+            {links.map((link, idx) => {
+                const { to, text, ...rest } = link
+                return (
+                    <NavigationLink key={idx} to={to} text={text} {...rest} />
+                )
+            })}
         </div>
     )
 }
