@@ -1,0 +1,25 @@
+.flex-wrapper {
+    display: flex;
+    flex-flow: column;
+
+    @media screen and (min-width: 760px) {
+        flex-flow: row;
+    
+        > *:not(:last-child) {
+            padding-right: 2rem;
+        }
+    }
+}
+
+.flex-wrapper--reverse {
+    display: flex;
+    flex-flow: column;
+
+    @media screen and (min-width: 760px) {
+        flex-flow: row-reverse;
+
+        > *:not(:first-child) {
+            padding-right: 2rem;
+        }
+    }
+}
