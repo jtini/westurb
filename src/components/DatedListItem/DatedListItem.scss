@@ -1,0 +1,39 @@
+@import '../../stylesheets/index';
+
+.dated-list {
+    padding-bottom: 2rem;
+
+    .dated-list-item {
+        display: flex;
+        flex-flow: column;
+        padding-left: 0;
+    
+        &:before {
+            display: none;
+        }
+
+        @media screen and (min-width: 800px) {
+            flex-flow: row;
+            padding-top: 2rem;
+        }
+    }
+
+    @media screen and (min-width: 800px) {
+        padding-bottom: 4rem;
+    }
+}
+
+.dated-list-item__date {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    min-width: 8.5rem;
+    color: $color-secondary;
+}
+
+.dated-list-item__title + .dated-list-item__subtitle {
+    margin-top: 0;
+}
+
+.dated-list-item__subtitle  {
+    font-family: $ff-serif;
+}
