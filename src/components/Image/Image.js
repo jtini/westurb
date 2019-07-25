@@ -6,7 +6,7 @@ const Image = props => {
     const { src, alt, caption, ...rest } = props;
     return (
         <div className="image-wrapper">
-            <img src={src} alt={alt} {...rest} />
+            <img className="image" src={src} alt={alt} {...rest} />
             {caption &&
                 <p className="image-caption">{caption}</p>
             }
