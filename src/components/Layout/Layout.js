@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import PropTypes from "prop-types"
 import HeaderPrimary from '../HeaderPrimary/HeaderPrimary'
+import FooterPrimary from '../FooterPrimary/FooterPrimary'
 import MobileNavigation from '../MobileNavigation/MobileNavigation'
 import './layout.scss'
 
@@ -40,6 +41,7 @@ export default class Layout extends Component {
       <>
         <HeaderPrimary isMenuVisible={isMenuVisible} showMenu={this.showMenu} hideMenu={this.hideMenu} />
         <main className="main">{children}</main>
+        <FooterPrimary />
         <MobileNavigation
           isVisible={isMenuVisible}
           links={[
