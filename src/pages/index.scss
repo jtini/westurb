@@ -1,0 +1,11 @@
+.homepage-logo {
+    display: none;
+
+    @media screen and (min-width: 1150px) {
+        display: block;
+        position: absolute;
+        top: 2rem;
+        left: 0;
+        transform: translate(-150%, 0);
+    }
+}
