@@ -2,10 +2,12 @@ module.exports = {
   siteMetadata: {
     title: `WestUrb | Western Urban Sustainability Advisors, LLC`,
     description: `WestUrb assists local governments (cities, counties, school districts, regional planning agencies) in creating and improving programs in the areas of sustainability, resilience, restoration and regeneration`,
+    siteUrl: `https://www.westurb.com`,
     author: `@jtinianow`,
   },
   plugins: [
     `gatsby-plugin-sass`,
+    `gatsby-plugin-sitemap`,
     {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
