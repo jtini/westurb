@@ -5,6 +5,8 @@ module.exports = {
     siteUrl: `https://www.westurb.com`,
     author: `@jtinianow`,
   },
+  // Only use pathPrefix with Github Pages
+  pathPrefix: "/westurb",
   plugins: [
     `gatsby-plugin-sass`,
     `gatsby-plugin-sitemap`,
