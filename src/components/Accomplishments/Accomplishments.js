@@ -12,7 +12,7 @@ const items = [
 const Accomplishments = () => (
     <section className="container pt-4">
         <h2>Accomplishments</h2>
-        <p class="pt-1 text--subdued">Jerry's career has included these highlights:</p>
+        <p className="pt-1 text--subdued">Jerry's career has included these highlights:</p>
         <ul>
             {items.map((item, idx) => (
                 <li key={idx}>{item}</li>
