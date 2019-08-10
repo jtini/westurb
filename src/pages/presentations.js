@@ -20,7 +20,7 @@ const presentationsList = [
         subtitle: '“Share the Clock, Not Just the Road”'
     }, {
         key: 'infoCast',
-        date: 'July 24, 2011',
+        date: 'July 24, 2019',
         title: 'InfoCast Clean Cities Renewable Power Procurement Conference Co-organizer',
         subtitle: 'Chairing plenary sessions and presenting opening remarks'
     }, {
