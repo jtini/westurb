@@ -94,6 +94,7 @@ const Presentations = () => {
                 />
                 <p className="pt-2 text--subdued">Some of Jerry’s presentations are available on YouTube and in podcasts. Here are a few examples:</p>
                 <ul className="presentation-list">
+                    <li><a className="presentation-link" href="https://www.linkedin.com/feed/update/urn:li:activity:6609230312071323648/" target="_blank">U.S. Green Building Council, video interview (1 min. 30 sec.)</a></li>
                     <li><a className="presentation-link" href="https://www.youtube.com/watch?v=1oZFAt0VLFg" target="_blank">Colorado Business Roundtable, video interview (30 min.)</a></li>
                     <li><a className="presentation-link" href="https://livestream.com/BarnMedia/CSUWaterInTheWestSymposium2018/videos/174108580" target="_blank">Water in the West - presentation at initial conference (15 min.)</a></li>
                     <li><a className="presentation-link" href="https://www.youtube.com/watch?v=wkulswoCegQ" target="_blank">Sustainability EXPOsed: Pittsburgh (keynote address) (15 min.)</a></li>
