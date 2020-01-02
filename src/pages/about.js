@@ -3,7 +3,6 @@ import Layout from "../components/Layout/Layout"
 import SEO from "../components/SEO/SEO"
 import Image from '../components/Image/Image'
 import Accomplishments from '../components/Accomplishments/Accomplishments'
-import Expertise from '../components/Expertise/Expertise'
 import Leadership from '../components/Leadership/Leadership'
 import headshot from '../images/jerry-headshot.png'
 import wirthPhoto from '../images/jerry-wirth-award.png'
@@ -45,7 +44,6 @@ const About = () => {
             </section>
             <Accomplishments />
             <Leadership />
-            <Expertise />
         </Layout>
     )
 }
