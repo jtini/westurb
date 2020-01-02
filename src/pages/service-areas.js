@@ -18,7 +18,7 @@ const content = [
     }, {
         id: 'commEngagement',
         lead: 'Community Engagement',
-        text: 'messaging, techniques'
+        text: 'messaging, techniques, facilitation'
     }, {
         id: 'marketing',
         lead: 'Marketing and Sales',
