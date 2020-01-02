@@ -17,7 +17,7 @@ const items = [
 
 const Expertise = () => (
     <section className="container pt-4">
-        <h2>Subject Areas</h2>
+        <h2>Subject Matter Expertise</h2>
         <p className="pt-1 text--subdued">WestUrb has expertise in multiple subject areas:</p>
         <ul>
             {items.map((item, idx) => (

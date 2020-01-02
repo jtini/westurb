@@ -1,6 +1,7 @@
 import React from 'react'
 import Layout from "../components/Layout/Layout"
 import SEO from "../components/SEO/SEO"
+import Expertise from "../components/Expertise/Expertise"
 
 const content = [
     {
@@ -18,7 +19,7 @@ const content = [
     }, {
         id: 'commEngagement',
         lead: 'Community Engagement',
-        text: 'messaging, techniques'
+        text: 'messaging, techniques, facilitation'
     }, {
         id: 'marketing',
         lead: 'Marketing and Sales',
@@ -58,6 +59,7 @@ const ServiceAreas = () => {
                     ))}
                 </ul>
             </div>
+            <Expertise />
         </Layout>
     )
 }

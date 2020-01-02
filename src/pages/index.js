@@ -12,14 +12,13 @@ const IndexPage = () => (
     <div className="container">
       <img className="homepage-logo" src={logo} width={96} alt="WestUrb logo" />
       <h1 className="title">Introducing WestUrb</h1>
-      <p className="color-text-light">As the world grows more urban, local governments will play increasingly crucial roles in combatting climate change and providing triple-bottom-line results for their communities. They will do so with high-quality programs in four areas:</p>
-      <section className="highlights">
-        <Highlight title="Sustainability" text="Ensuring availability of affordable basic resources both today and tomorrow" />
-        <Highlight title="Resilience" text="Reducing the risk of disasters, and bouncing back quickly when they occur" />
-        <Highlight title="Restoration" text="Restoring natural systems to their historic health" />
-        <Highlight title="Regeneration" text="Creating local ecosystems that regenerate amenities naturally" />
-      </section>
-      <p className="color-text-light">Western Urban Sustainability Advisors, LLC (WestUrb) helps local governments provide such high-quality programs. WestUrb also helps businesses that want to sell related services and products to local governments, and interest groups that want to influence the adoption of supportive policies by such governments.</p>
+      <blockquote className="homepage-lead">Our world is facing unprecedented challenges: climate change, mobility system failures, affordable housing shortages, habitat loss and environmental injustice. Our federal government is at best dormant and at worst an active obstacle. Local governments can’t look to support from higher up. They need to lead –do much more, much faster, and do it now. WestUrb is here to help local governments, their vendors and their stakeholders meet this need, using lessons learned during years of producing effective results from the inside.</blockquote>
+      <p>Want to start a local sustainability program or office? We help you create one that your community will applaud.</p>
+      <p>Does your sustainability program or office need improvement? We design state of the art upgrades.</p>
+      <p>Trying to sell products or services to local government sustainability programs? We connect you with key decision makers and help navigate sustainable procurement.</p>
+      <p>Hoping for improvements in local sustainability policy? We point you to best practices and help you secure their enactment.</p>
+      <p>Envisioning an engaging sustainability conference, but not sure how to make it happen? We design winning events.</p>
+      <p>Need an engaging keynote or presenter who will draw rave reviews? Our presentations don’t just inform; they also motivate.</p>
       <NavigationList
         links={[
           {

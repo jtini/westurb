@@ -3,7 +3,6 @@ import Layout from "../components/Layout/Layout"
 import SEO from "../components/SEO/SEO"
 import Image from '../components/Image/Image'
 import Accomplishments from '../components/Accomplishments/Accomplishments'
-import Expertise from '../components/Expertise/Expertise'
 import Leadership from '../components/Leadership/Leadership'
 import headshot from '../images/jerry-headshot.png'
 import wirthPhoto from '../images/jerry-wirth-award.png'
@@ -12,9 +11,9 @@ import gorePhoto from '../images/jerry-with-al-gore.png'
 const About = () => {
     return (
         <Layout>
-            <SEO title="About WestUrb" />
+            <SEO title="Proprietor" />
             <section className="container container--wide">
-                <h1>About WestUrb</h1>
+                <h1>Proprietor</h1>
                 <div className="flex-wrapper--reverse">
                     <Image
                         src={headshot}
@@ -45,7 +44,6 @@ const About = () => {
             </section>
             <Accomplishments />
             <Leadership />
-            <Expertise />
         </Layout>
     )
 }
