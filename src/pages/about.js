@@ -12,9 +12,9 @@ import gorePhoto from '../images/jerry-with-al-gore.png'
 const About = () => {
     return (
         <Layout>
-            <SEO title="About WestUrb" />
+            <SEO title="Proprietor" />
             <section className="container container--wide">
-                <h1>About WestUrb</h1>
+                <h1>Proprietor</h1>
                 <div className="flex-wrapper--reverse">
                     <Image
                         src={headshot}

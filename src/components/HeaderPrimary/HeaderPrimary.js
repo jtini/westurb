@@ -16,7 +16,7 @@ const HeaderPrimary = props => {
                 </Link>
                 <nav className="header-primary__navigation">
                     <Link to="/" className="header-primary__nav-link">WestUrb</Link>
-                    <Link to="/about" className="header-primary__nav-link">About WestUrb</Link>
+                    <Link to="/about" className="header-primary__nav-link">Proprietor</Link>
                     <Link to="/service-areas" className="header-primary__nav-link">Service Areas</Link>
                     <Link to="/presentations" className="header-primary__nav-link">Presentations</Link>
                     <Link to="/rates" className="header-primary__nav-link">Rates</Link>
