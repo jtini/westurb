@@ -28,9 +28,10 @@ h3 {
 
 .title {
     font-size: $fs-h1;
-    margin-bottom: 2rem;
+    margin-bottom: 0;
 
     @media screen and (min-width: 500px) {
+        margin-bottom: 2rem;
         font-size: $fs-title;
     }
 }

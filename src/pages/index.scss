@@ -1,3 +1,5 @@
+@import '../stylesheets/index';
+
 .homepage-logo {
     display: none;
 
@@ -7,5 +9,19 @@
         top: 2rem;
         left: 0;
         transform: translate(-150%, 0);
+    }
+}
+
+.homepage-lead {
+    margin-bottom: 2rem;
+    font-family: $ff-serif;
+    font-size: 1.25rem;
+    font-style: italic;
+    line-height: 1.5;
+    color: $color-text-light;
+
+    @media screen and (min-width: 500px) {
+        margin-bottom: 3rem;
+        font-size: 1.75rem;
     }
 }
