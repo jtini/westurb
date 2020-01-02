@@ -8,6 +8,18 @@ import './presentations.scss'
 
 const presentationsList = [
     {
+        key: 'energyAfrica',
+        date: 'Nov 14, 2019',
+        title: 'Energy Africa Conference',
+        subtitle: '“Rare Earth Metals and the Future of Renewable Energy”'
+    },
+    {
+        key: 'northTex',
+        date: 'Nov 7, 2019',
+        title: 'North Texas Regional Water Conservation Symposium',
+        subtitle: '“Confessions of a Novice: An Easterner Learns Western Water Ways”'
+    },
+    {
         key: 'spc',
         date: 'Oct 8, 2019',
         title: 'SPC (Sustainable Packaging Coalition) Advance Conference',
